@@ -1,0 +1,5 @@
+# Ignorar variables de entorno
+.env
+
+# Si usas VS Code, también puedes ignorar configuraciones locales
+.vscode/
