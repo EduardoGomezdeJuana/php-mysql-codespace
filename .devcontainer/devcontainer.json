@@ -2,7 +2,7 @@
   "name": "PHP + MySQL Devcontainer",
   "dockerComposeFile": ".devcontainer/docker-compose.yml",
   "service": "www",
-  "workspaceFolder": "/var/www/html",
+  "workspaceFolder": "/workspaces/php-mysql-codespace",
   "forwardPorts": [80, 3306, 8080],
   "settings": {
     "terminal.integrated.defaultProfile.linux": "bash"
