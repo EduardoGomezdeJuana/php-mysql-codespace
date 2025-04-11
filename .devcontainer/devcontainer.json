@@ -1,15 +1,10 @@
 {
-  "name": "PHP + MySQL + phpMyAdmin",
+  "name": "PHP + MySQL Devcontainer",
   "dockerComposeFile": "docker-compose.yml",
   "service": "www",
-  "workspaceFolder": "/workspace",
-  "appPort": [80, 8080],
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "xdebug.php-debug",
-        "bmewburn.vscode-intelephense-client"
-      ]
-    }
+  "workspaceFolder": "/var/www/html",
+  "forwardPorts": [80, 3306, 8080],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
   }
 }
