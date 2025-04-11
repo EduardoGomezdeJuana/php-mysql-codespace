@@ -1,6 +1,6 @@
 {
   "name": "PHP + MySQL Devcontainer",
-  "dockerComposeFile": "docker-compose.yml",
+  "dockerComposeFile": ".devcontainer/docker-compose.yml",
   "service": "www",
   "workspaceFolder": "/var/www/html",
   "forwardPorts": [80, 3306, 8080],

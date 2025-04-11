@@ -18,7 +18,7 @@ services:
   www:
     build:
       context: . 
-      dockerfile: php.dockerfile
+      dockerfile: .devcontainer/php.dockerfile
     container_name: www
     volumes:
       - "./src:/var/www/html"
