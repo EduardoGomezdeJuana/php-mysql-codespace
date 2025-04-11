@@ -1,4 +1,3 @@
-version: "3.8"
 services:
   mysql:
     image: mysql:latest
@@ -19,8 +18,8 @@ services:
 
   www:
     build:
-      context: . 
-      dockerfile: .devcontainer/php.dockerfile
+      context: .devcontainer 
+      dockerfile: php.dockerfile
     container_name: www
     volumes:
       - "./src:/var/www/html"
