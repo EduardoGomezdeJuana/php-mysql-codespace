@@ -1,10 +1,10 @@
 {
   "name": "PHP + MySQL Devcontainer",
-  "dockerComposeFile": ".devcontainer/docker-compose.yml",
+  "dockerComposeFile": "docker-compose.yml",
   "service": "www",
-  "workspaceFolder": "/workspaces/php-mysql-codespace",
+  "workspaceFolder": "/var/www/html",
   "forwardPorts": [80, 3306, 8080],
-  "settings": {
-    "terminal.integrated.defaultProfile.linux": "bash"
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   }
 }
